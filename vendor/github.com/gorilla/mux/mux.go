@@ -23,6 +23,7 @@ var (
 
 // NewRouter returns a new router instance.
 func NewRouter() *Router {
+	fmt.Println("Hello from the vendor directory")
 	return &Router{namedRoutes: make(map[string]*Route)}
 }
 
